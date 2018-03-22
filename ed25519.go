@@ -4,7 +4,7 @@
 
 // Package ed25519 implements the Ed25519 signature algorithm. See
 // http://ed25519.cr.yp.to/.
-package ed25519
+package stellaragled25519
 
 // This code is a port of the public domain, "ref10" implementation of ed25519
 // from SUPERCOP.
