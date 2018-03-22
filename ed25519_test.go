@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package ed25519
+package stellaragled25519
 
 import (
 	"bufio"
@@ -15,7 +15,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/agl/ed25519/edwards25519"
+	edwards25519 "github.com/keybase/stellar-agl-ed25519/edwards25519"
 )
 
 type zeroReader struct{}

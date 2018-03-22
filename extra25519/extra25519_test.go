@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package extra25519
+package stellaraglextra25519
 
 import (
 	"bytes"
 	"crypto/rand"
 	"testing"
 
-	"github.com/agl/ed25519"
+	ed25519 "github.com/keybase/stellar-agl-ed25519"
 	"golang.org/x/crypto/curve25519"
 )
 

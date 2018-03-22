@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package extra25519
+package stellaraglextra25519
 
 import (
 	"crypto/sha512"
 
-	"github.com/agl/ed25519/edwards25519"
+	edwards25519 "github.com/keybase/stellar-agl-ed25519/edwards25519"
 )
 
 // PrivateKeyToCurve25519 converts an ed25519 private key into a corresponding
